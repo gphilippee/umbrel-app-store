@@ -7,7 +7,7 @@ services:
       
   gluetun:
     image: qmcgaw/gluetun
-    container_name: gluetun
+    container_name: gphilippe-sabnzbd_gluetun_1
     cap_add:
       - NET_ADMIN
     devices:
